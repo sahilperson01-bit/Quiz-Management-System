@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class QuizManager {
     private QuizDAO dao;
-    private List<Question> questionList;
+    private List<Question> questionList = Collections.synchronizedList(new ArrayList<>());
     private Map<Integer, Integer> userScores; // userId -> latest score (thread-safe)
 
     public QuizManager() {
@@ -40,3 +40,4 @@ public class QuizManager {
         return userScores.getOrDefault(userId, 0);
     }
 }
+

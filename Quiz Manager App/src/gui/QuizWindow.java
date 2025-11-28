@@ -71,6 +71,9 @@ public class QuizWindow extends JFrame {
         try {
             manager.loadQuestions();
             questions = manager.getShuffledQuestions();
+                    if (questions == null || questions.isEmpty()) {
+            throw new SQLException("No questions available in database");
+        }
             startTimer(300); // 5 minutes for whole quiz
             showQuestion(0);
         } catch (SQLException e) {
@@ -139,3 +142,4 @@ public class QuizWindow extends JFrame {
         dispose();
     }
 }
+

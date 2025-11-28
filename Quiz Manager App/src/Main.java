@@ -8,8 +8,7 @@ public class Main {
                 "admin"
             );
             System.out.println("✓ Connected to Oracle DB!");
-            con.close();
-            
+                        
             // LAUNCH GUI HERE
             System.out.println("✓ Launching Quiz Management System...");
             LoginWindow loginWindow = new LoginWindow();
@@ -20,4 +19,5 @@ public class Main {
         }
     }
 }
+
 

@@ -1,4 +1,3 @@
-import java.sql.*;
 public class Main {
     public static void main(String[] args) {
         try {
@@ -8,10 +7,17 @@ public class Main {
                 "system",
                 "admin"
             );
-            System.out.println("Connected!");
+            System.out.println("✓ Connected to Oracle DB!");
             con.close();
+            
+            // LAUNCH GUI HERE
+            System.out.println("✓ Launching Quiz Management System...");
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.setVisible(true);
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 }
+

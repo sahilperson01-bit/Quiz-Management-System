@@ -41,7 +41,7 @@ Before running the application, ensure you have the following installed:
     - Modify the `USERNAME` and `PASSWORD` fields to match your local MySQL credentials:
       ```java
       private static final String USERNAME = "root"; 
-      private static final String PASSWORD = "MYSQL_PASSWORD";
+      private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
       ```
 
 4.  **Add Dependencies**

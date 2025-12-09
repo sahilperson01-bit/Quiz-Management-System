@@ -19,29 +19,35 @@ A comprehensive GUI-based online quiz management system built using Java Swing a
 
 ### Login Screen
 The login screen provides a secure entry point for both administrators and students.
-![Login Screen](./images/login-screen.png)
+<img width="1920" height="1004" alt="Login Page" src="https://github.com/user-attachments/assets/0851d70e-8765-41d3-90aa-618086ac4677" />
+
 
 ### Admin Panel
 #### Dashboard
 The admin dashboard gives administrators quick access to all management functions.
-![Admin Dashboard](./images/admin-dashboard.png)
+<img width="1920" height="997" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/86bc9d43-694a-451d-9e9e-a6d1107772af" />
+
 
 #### Add Questions
 Administrators can easily add questions to quizzes with the intuitive question creation interface.
-![Add Questions](./images/add-questions.png)
+<img width="1920" height="1011" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/8b3ddb44-4631-4b73-98bf-c1b31f679b24" />
+
 
 #### Bulk Import
 Import multiple questions at once using the bulk import feature.
-![Bulk Import](./images/bulk-import.png)
+<img width="1920" height="993" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/04cdfe03-038b-435a-88f5-27b419ed8f84" />
+
 
 ### Student Panel
 #### Dashboard
 The student dashboard shows available quizzes and past performance.
-![Student Dashboard](./images/student-dashboard.png)
+<img width="1920" height="1000" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/f0c637f4-a759-4f97-b72f-d1da46fa7ca6" />
+
 
 #### Quiz Results
 Instant feedback with detailed score reports after completing a quiz.
-![Quiz Results](./images/quiz-results.png)
+<img width="1920" height="1000" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/34e29981-0126-44b3-b755-d604d53cf23e" />
+
 
 ## Technologies Used
 - **Programming Language:** Java (Swing, AWT)
@@ -100,4 +106,5 @@ src/com/quiz/
 ├── util/         # Utilities (Database Connection)
 └── MainFrame.java # Entry point of the application
 ```
+
 

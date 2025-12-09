@@ -15,6 +15,34 @@ A comprehensive GUI-based online quiz management system built using Java Swing a
 - **Instant Feedback:** View scores immediately after completing a quiz.
 - **History:** Track past quiz results.
 
+- ## Screenshots
+
+### Login Screen
+The login screen provides a secure entry point for both administrators and students.
+![Login Screen](./images/login-screen.png)
+
+### Admin Panel
+#### Dashboard
+The admin dashboard gives administrators quick access to all management functions.
+![Admin Dashboard](./images/admin-dashboard.png)
+
+#### Add Questions
+Administrators can easily add questions to quizzes with the intuitive question creation interface.
+![Add Questions](./images/add-questions.png)
+
+#### Bulk Import
+Import multiple questions at once using the bulk import feature.
+![Bulk Import](./images/bulk-import.png)
+
+### Student Panel
+#### Dashboard
+The student dashboard shows available quizzes and past performance.
+![Student Dashboard](./images/student-dashboard.png)
+
+#### Quiz Results
+Instant feedback with detailed score reports after completing a quiz.
+![Quiz Results](./images/quiz-results.png)
+
 ## Technologies Used
 - **Programming Language:** Java (Swing, AWT)
 - **Database:** MySQL
@@ -72,3 +100,4 @@ src/com/quiz/
 ├── util/         # Utilities (Database Connection)
 └── MainFrame.java # Entry point of the application
 ```
+
